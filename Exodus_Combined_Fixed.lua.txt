@@ -1485,7 +1485,7 @@ local function sendCoinWebhook(status, coins)
     if _G.WebhookURL == "" or _G.WebhookURL == nil then return end
     local data = {
         ["embeds"] = {{
-            ["title"] = "✨ EXODUS HUB | COIN TRACKER 🪙",
+            ["title"] = "✨ MYAIM HUB | COIN TRACKER 🪙",
             ["description"] = "**Status:** " .. status .. "\n**Collected:** `+" .. tostring(coins) .. "`\n**Account:** ||" .. lp.Name .. "||",
             ["color"] = tonumber("0x00a2ff")
         }}
