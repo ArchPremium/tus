@@ -1710,8 +1710,8 @@ task.spawn(function()
 end)
 
 local Window = Rayfield:CreateWindow({
-   Name = "EXODUS HUB | Murder Mystery 2 🔪",
-   LoadingTitle = "by @exodusstk",
+   Name = "ASSISTAIM HUB | Murder Mystery 2 👾",
+   LoadingTitle = "by @assistaim",
    ConfigurationSaving = {Enabled = true, FolderName = "ExodusConfigs", FileName = "MM2_Final"}
 })
 
